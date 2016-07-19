@@ -14,6 +14,8 @@ body {
 
 .title{
   border-color: green;
+  text-align: center;
+  font-size: 20px;
 }
 
 .image{
@@ -22,13 +24,46 @@ body {
 
 .text1{
   border-color: red;
+  float: left;
+  width: 45%;
 }
 
 .text2{
   border-color: orange;
+  float: right;
+  width: 45%;
 }
 
 .footer{
   border-color: aqua;
+  clear: both;
 }
+
+.top-nav{
+  background-color: goldenrod;
+  height: 45px;
+}
+
+.top-nav li{
+  list-style-type: none;
+  font-family: "Arial";
+  padding: 0 9px;
+  float: left;
+  margin: 10px 15px 0 15px;
+  cursor: pointer;
+}
+
+.img-box{
+  width: 30%;
+  height: 50px;
+  border: 2px dashed lime;
+  display: inline-block;
+  margin-right: 2%
+}
+
+
+
+
+
+
 
