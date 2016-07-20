@@ -1,0 +1,36 @@
+body {
+  background-color: green;
+}
+
+div{
+  border: 3px solid navy;
+}
+
+.div-inline-block{
+  display: inline-block;
+  color: yellow;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.div-inline{
+  display: inline;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.div-block{
+  display: block;
+}
+
+article section:nth-child(2n){
+  border: 2px dashed red;
+}
+
+article section:nth-child(2n+1){
+  color: purple;
+}
+
+article section:first-of-type{
+  background-color: red;
+}
